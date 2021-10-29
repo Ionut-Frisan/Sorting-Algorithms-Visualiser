@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Sort Alg visualise</title>
+</head>
+<body>
+    <h2>Sorthing algorithms visualiser</h2>
+    <div id="content">
+        <div id="options">
+            <select name="algorithms" id="algorithms" onchange="runAlgorithm(this.value)">
+                <option value="default">Select algorithm</option>
+                <option value="bubble">Bubble Sort</option>
+                <option value="quickExplicit" >Quick Sort (detailed)</option>
+                <option value="quick">Quick sort</option>
+            </select>
+            <div id="slider-div">
+                <label for="slider">Speed:</label>
+                <input type="range" min="0" max="100" value="10" id="slider" name="slider" onclick="changeSpeed()">
+            </div>
+        </div>
+        <div id="display">
+
+        </div>
+    </div>
+    <div id="message" class="hidden message" onclick="hideMessage()">Completed!</div>
+</body>
+</html>
