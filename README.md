@@ -9,3 +9,6 @@ Sorting arlgorithms visualiser built in javascript
 
 3.Quick Sort that goes through every check
 ![](/gifs/quick-sort-detailed.gif)
+
+4.Insertion Sort
+![](/gifs/insertion-sort.gif)
