@@ -1,0 +1,63 @@
+
+h2{
+    text-align: center;
+  
+    font-size: 30px;
+}
+
+#content{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    margin: 10px 30px 10px 30px;
+    height: 500px;
+    border: 1px solid grey;
+    border-radius: 3px;
+}
+
+#display{
+    background-color: white;
+    border-left: 1px solid grey;
+    display: inline-block;
+    justify-content: space-between;
+    bottom: 0;
+    padding: 10px;
+    position: relative;
+
+   
+}
+
+.item{
+    width: 7px;
+    background-color: rgb(3, 94, 252);
+    position: absolute;
+    bottom: 5px;
+    animation: ease-in 0.3s;
+    border-radius: 2px;
+    border:1px solid black;
+}
+
+.active{
+    background-color: red;
+}
+
+#options #slider, #algorithms, label{
+    margin: 5px 0px;
+}
+
+#options{
+    padding: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.message{
+    position:fixed;
+    top: 30%;
+    left: 45%;
+    font-size: 25px;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
